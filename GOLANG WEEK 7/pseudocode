@@ -1,0 +1,13 @@
+PROGRAM LuasSegitiga
+Kamus
+    j, alas, tinggi, n : integer
+    luas : real
+
+ALGORITMA
+    input(n)
+    for j <- 1 to n do
+    input(alas * tinggi)
+    luas <- 0.5 * (alas * tinggi)
+    output(luas)
+endfor
+endprogram
